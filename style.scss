@@ -1,0 +1,549 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?a5ci10') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?a5ci10') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?a5ci10##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i, .icomoon-liga {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.amazon {
+  &:before {
+    content: $amazon; 
+  }
+}
+.brightness-contrast {
+  &:before {
+    content: $brightness-contrast; 
+  }
+}
+.codepen {
+  &:before {
+    content: $codepen; 
+  }
+}
+.css3 {
+  &:before {
+    content: $css3; 
+  }
+}
+.dropbox {
+  &:before {
+    content: $dropbox; 
+  }
+}
+.enter {
+  &:before {
+    content: $enter; 
+  }
+}
+.exit {
+  &:before {
+    content: $exit; 
+  }
+}
+.eye {
+  &:before {
+    content: $eye; 
+  }
+}
+.eye-blocked {
+  &:before {
+    content: $eye-blocked; 
+  }
+}
+.git {
+  &:before {
+    content: $git; 
+  }
+}
+.github {
+  &:before {
+    content: $github; 
+  }
+}
+.google {
+  &:before {
+    content: $google; 
+  }
+}
+.heart {
+  &:before {
+    content: $heart; 
+  }
+}
+.html-five {
+  &:before {
+    content: $html-five; 
+  }
+}
+.html-five2 {
+  &:before {
+    content: $html-five2; 
+  }
+}
+.linkedin {
+  &:before {
+    content: $linkedin; 
+  }
+}
+.location {
+  &:before {
+    content: $location; 
+  }
+}
+.location2 {
+  &:before {
+    content: $location2; 
+  }
+}
+.phone {
+  &:before {
+    content: $phone; 
+  }
+}
+.phone-hang-up {
+  &:before {
+    content: $phone-hang-up; 
+  }
+}
+.globe {
+  &:before {
+    content: $globe; 
+  }
+}
+.spotify {
+  &:before {
+    content: $spotify; 
+  }
+}
+.telegram {
+  &:before {
+    content: $telegram; 
+  }
+}
+.twitter {
+  &:before {
+    content: $twitter; 
+  }
+}
+.whatsapp {
+  &:before {
+    content: $whatsapp; 
+  }
+}
+.youtube {
+  &:before {
+    content: $youtube; 
+  }
+}
+.Kaaiioos {
+  &:before {
+    content: $Kaaiioos; 
+  }
+}
+.ancient {
+  &:before {
+    content: $ancient; 
+  }
+}
+.apeerion {
+  &:before {
+    content: $apeerion; 
+  }
+}
+.archivebox {
+  &:before {
+    content: $archivebox; 
+  }
+}
+.archivebox-fill {
+  &:before {
+    content: $archivebox-fill; 
+  }
+}
+.arrow-clockwise {
+  &:before {
+    content: $arrow-clockwise; 
+  }
+}
+.arrow-counterclockwise {
+  &:before {
+    content: $arrow-counterclockwise; 
+  }
+}
+.automat {
+  &:before {
+    content: $automat; 
+  }
+}
+.back-arrow {
+  &:before {
+    content: $back-arrow; 
+  }
+}
+.bag {
+  &:before {
+    content: $bag; 
+  }
+}
+.bag-fill {
+  &:before {
+    content: $bag-fill; 
+  }
+}
+.bell {
+  &:before {
+    content: $bell; 
+  }
+}
+.bell-circle {
+  &:before {
+    content: $bell-circle; 
+  }
+}
+.bell-circle-fill {
+  &:before {
+    content: $bell-circle-fill; 
+  }
+}
+.bell-fill {
+  &:before {
+    content: $bell-fill; 
+  }
+}
+.chat-bubble {
+  &:before {
+    content: $chat-bubble; 
+  }
+}
+.chat-bubble-2 {
+  &:before {
+    content: $chat-bubble-2; 
+  }
+}
+.chat-bubble-2-fill {
+  &:before {
+    content: $chat-bubble-2-fill; 
+  }
+}
+.chat-bubble-fill {
+  &:before {
+    content: $chat-bubble-fill; 
+  }
+}
+.chat-bubble-text {
+  &:before {
+    content: $chat-bubble-text; 
+  }
+}
+.chat-bubble-text-fill {
+  &:before {
+    content: $chat-bubble-text-fill; 
+  }
+}
+.checkmark {
+  &:before {
+    content: $checkmark; 
+  }
+}
+.checkmark-circle {
+  &:before {
+    content: $checkmark-circle; 
+  }
+}
+.checkmark-circle-fill {
+  &:before {
+    content: $checkmark-circle-fill; 
+  }
+}
+.checkmark-seal {
+  &:before {
+    content: $checkmark-seal; 
+  }
+}
+.checkmark-seal-fill {
+  &:before {
+    content: $checkmark-seal-fill; 
+  }
+}
+.cloud-download {
+  &:before {
+    content: $cloud-download; 
+  }
+}
+.cloud-download-fill {
+  &:before {
+    content: $cloud-download-fill; 
+  }
+}
+.coompact {
+  &:before {
+    content: $coompact; 
+  }
+}
+.cube {
+  &:before {
+    content: $cube; 
+  }
+}
+.deematt {
+  &:before {
+    content: $deematt; 
+  }
+}
+.deeniiz {
+  &:before {
+    content: $deeniiz; 
+  }
+}
+.eeiiva {
+  &:before {
+    content: $eeiiva; 
+  }
+}
+.ellipsis-circle {
+  &:before {
+    content: $ellipsis-circle; 
+  }
+}
+.ellipsis-circle-fill {
+  &:before {
+    content: $ellipsis-circle-fill; 
+  }
+}
+.ellipsis-vertical-circle {
+  &:before {
+    content: $ellipsis-vertical-circle; 
+  }
+}
+.ellipsis-vertical-circle-fill {
+  &:before {
+    content: $ellipsis-vertical-circle-fill; 
+  }
+}
+.gear {
+  &:before {
+    content: $gear; 
+  }
+}
+.info {
+  &:before {
+    content: $info; 
+  }
+}
+.info-circle {
+  &:before {
+    content: $info-circle; 
+  }
+}
+.info-circle-fill {
+  &:before {
+    content: $info-circle-fill; 
+  }
+}
+.keep {
+  &:before {
+    content: $keep; 
+  }
+}
+.logo {
+  &:before {
+    content: $logo; 
+  }
+}
+.maattbook {
+  &:before {
+    content: $maattbook; 
+  }
+}
+.manttek {
+  &:before {
+    content: $manttek; 
+  }
+}
+.matpenter {
+  &:before {
+    content: $matpenter; 
+  }
+}
+.mic {
+  &:before {
+    content: $mic; 
+  }
+}
+.mic-circle {
+  &:before {
+    content: $mic-circle; 
+  }
+}
+.mic-circle-fill {
+  &:before {
+    content: $mic-circle-fill; 
+  }
+}
+.mic-fill {
+  &:before {
+    content: $mic-fill; 
+  }
+}
+.paperclip {
+  &:before {
+    content: $paperclip; 
+  }
+}
+.pause {
+  &:before {
+    content: $pause; 
+  }
+}
+.pause-circle {
+  &:before {
+    content: $pause-circle; 
+  }
+}
+.pause-circle-fill {
+  &:before {
+    content: $pause-circle-fill; 
+  }
+}
+.pause-fill {
+  &:before {
+    content: $pause-fill; 
+  }
+}
+.pencil {
+  &:before {
+    content: $pencil; 
+  }
+}
+.pencil-circle {
+  &:before {
+    content: $pencil-circle; 
+  }
+}
+.pencil-circle-fill {
+  &:before {
+    content: $pencil-circle-fill; 
+  }
+}
+.person {
+  &:before {
+    content: $person; 
+  }
+}
+.play {
+  &:before {
+    content: $play; 
+  }
+}
+.play-circle {
+  &:before {
+    content: $play-circle; 
+  }
+}
+.play-circle-fill {
+  &:before {
+    content: $play-circle-fill; 
+  }
+}
+.play-fill {
+  &:before {
+    content: $play-fill; 
+  }
+}
+.plus {
+  &:before {
+    content: $plus; 
+  }
+}
+.rectangle-paperclip {
+  &:before {
+    content: $rectangle-paperclip; 
+  }
+}
+.rectangle-stack {
+  &:before {
+    content: $rectangle-stack; 
+  }
+}
+.rectangle-stack-fill {
+  &:before {
+    content: $rectangle-stack-fill; 
+  }
+}
+.search {
+  &:before {
+    content: $search; 
+  }
+}
+.square-stack {
+  &:before {
+    content: $square-stack; 
+  }
+}
+.square-stack-fill {
+  &:before {
+    content: $square-stack-fill; 
+  }
+}
+.trash {
+  &:before {
+    content: $trash; 
+  }
+}
+.trash-circle {
+  &:before {
+    content: $trash-circle; 
+  }
+}
+.trash-circle-fill {
+  &:before {
+    content: $trash-circle-fill; 
+  }
+}
+.trash-fill {
+  &:before {
+    content: $trash-fill; 
+  }
+}
+.viisiion {
+  &:before {
+    content: $viisiion; 
+  }
+}
+.yamuor {
+  &:before {
+    content: $yamuor; 
+  }
+}
+
