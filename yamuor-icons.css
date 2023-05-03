@@ -2,7 +2,7 @@
 transition:0.3s cubic-bezier(0,0,.5,1)
 }header a:hover{opacity:1}@media (max-width:500px){.links .link{margin:0 10px}}
 .landing{overflow-x:hidden;height:95dvh;background-color:#000;display:flex;align-items:center;justify-content:center;flex-direction:column}
-.landing h1{text-align:center;font-size:1.8rem;position:relative;color:#fff;border-radius:8px;margin-bottom:25px;letter-spacing:1.25px;transition:0.3s cubic-bezier(0,0,.5,1);
+.landing h1{text-align:center;font-size:1.8rem;position:relative;color:#fff;border-radius:8px;margin-bottom:25px;letter-spacing:1px;transition:0.3s cubic-bezier(0,0,.5,1);
 white-space: nowrap;
 
 overflow: hidden;font-weight:700;}.landing h1:hover {color:#000;background:#fff;padding:20px;}
