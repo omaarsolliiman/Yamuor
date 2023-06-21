@@ -1,13 +1,10 @@
 @font-face {
     font-family: "yamuor-icons";
-    src: url("https://drive.google.com/file/d/1JnO1tYLWqzx1sQ1Yxcb-Wt7aTjL7zJhh/view?usp=drive_link");
-    src: url("https://drive.google.com/file/d/1JnO1tYLWqzx1sQ1Yxcb-Wt7aTjL7zJhh/view?usp=drive_link")
-            format("embedded-opentype"),
-        url("https://drive.google.com/file/d/12L14W_2k5UIsZh3IC34qMnpUvQ22Dagr/view?usp=drive_link")
-            format("truetype"),
-        url("https://drive.google.com/file/d/1-w-QVOsZCtZjJ_9lQP1z_y5d-CtbhWzh/view?usp=drive_link") format("woff"),
-        url("https://drive.google.com/file/d/1hVccys6e_Mh8BeiUR9NQuvl4-ewFol52/view?usp=drive_link")
-            format("svg");
+       src: url("https://omaarsolliiman.github.io/Yamuor/fonts/yamuor-icons.eot");
+    src: url("https://omaarsolliiman.github.io/Yamuor/fonts/yamuor-icons.eot") format("embedded-opentype"),
+        url("https://omaarsolliiman.github.io/Yamuor/fonts/yamuor-icons.ttf") format("truetype"),
+        url("https://omaarsolliiman.github.io/Yamuor/fonts/yamuor-icons.woff") format("woff"),
+        url("https://omaarsolliiman.github.io/Yamuor/fonts/yamuor-icons.svg") format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: block;
